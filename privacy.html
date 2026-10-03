@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Partner Community</title>
+  <meta name="description" content="Privacy Policy for Partner Community (Sangath Partner) application on Android and iOS.">
+  <link rel="icon" type="image/png" href="assets/play_store_icon_512x512.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="nav-container">
+      <div class="brand">
+        <img src="assets/play_store_icon_512x512.png" alt="Partner Community Logo" class="brand-icon">
+        <span>Partner Community</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="terms.html" class="nav-link">Terms</a>
+        <a href="mailto:kajalkarkar007@gmail.com" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="legal-page">
+      <div class="legal-header">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        <h1 class="legal-title">Privacy Policy</h1>
+        <p class="legal-date">Last updated: October 3, 2026</p>
+      </div>
+
+      <article class="legal-content">
+        <p>
+          Welcome to <strong>Partner Community</strong> (also referred to as "Sangath Partner", "we", "us", or "our"). We are dedicated to maintaining the privacy, security, and trust of our community across our Android and iOS applications.
+        </p>
+
+        <h2>1. Summary of Core Principles</h2>
+        <ul>
+          <li><strong>Zero In-App Chat Tracking or Spam:</strong> We use an explicit double-opt-in matching system. We do not maintain in-app chat backlogs or track unrequested messages.</li>
+          <li><strong>Phone Number Confidentiality:</strong> Your phone number is strictly used for secure OTP verification via Firebase Authentication and is never displayed publicly to other users.</li>
+          <li><strong>Protected Social Handles:</strong> Instagram handles and contact points are locked behind database Row-Level Security (RLS) and shared only when both members mutually accept a match request.</li>
+          <li><strong>Zero Data Selling:</strong> We do not sell, rent, or monetize your personal data to third parties or advertising brokers.</li>
+        </ul>
+
+        <h2>2. Information We Collect</h2>
+        <p>When you register and use Partner Community, we collect the following categories of information:</p>
+        
+        <h3>A. Account & Verification Data</h3>
+        <ul>
+          <li><strong>Phone Number:</strong> Collected during sign-up for OTP verification via Firebase Authentication.</li>
+          <li><strong>Profile Details:</strong> Your chosen display name, age/birthdate (to verify 18+ eligibility), gender, city/location preference, and bio.</li>
+          <li><strong>Profile Photos:</strong> Images uploaded to showcase your profile to prospective festival and event companions.</li>
+          <li><strong>Social Handles (Optional):</strong> Your Instagram username, protected and only unlocked upon mutual match confirmation.</li>
+        </ul>
+
+        <h3>B. Purchases & Subscription Data</h3>
+        <ul>
+          <li><strong>Subscriptions & In-App Purchases:</strong> We use <strong>RevenueCat</strong> to manage in-app subscriptions and unlock premium features. RevenueCat processes anonymous app user IDs, transaction identifiers, purchase history, and entitlement statuses. Payments are securely processed directly by Google Play or Apple App Store. We do not store or process your credit card or financial numbers.</li>
+        </ul>
+
+        <h3>C. Usage and Diagnostics Data</h3>
+        <ul>
+          <li><strong>Interactions:</strong> Partner requests sent, received, and mutual matches formed.</li>
+          <li><strong>Technical & Diagnostic Information:</strong> Device model, OS version, app version, crash logs, and performance metrics collected via Firebase Crashlytics and Firebase Analytics to maintain app stability and eliminate bugs.</li>
+        </ul>
+
+        <h2>3. Third-Party Service Providers</h2>
+        <p>To deliver our services reliably and securely, we integrate with trusted third-party infrastructure providers:</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Service Provider</th>
+              <th>Data Handled</th>
+              <th>Purpose</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Firebase Authentication (Google)</strong></td>
+              <td>Phone number, OTP verification tokens</td>
+              <td>Secure, spam-free account sign-in</td>
+            </tr>
+            <tr>
+              <td><strong>Supabase</strong></td>
+              <td>Profile data, match requests, uploaded photos</td>
+              <td>Encrypted database storage with Row-Level Security (RLS)</td>
+            </tr>
+            <tr>
+              <td><strong>RevenueCat</strong></td>
+              <td>Anonymous User ID, purchase tokens, subscription & entitlement status</td>
+              <td>In-app purchase validation and cross-platform subscription synchronization</td>
+            </tr>
+            <tr>
+              <td><strong>Google Play Billing / Apple In-App Purchase</strong></td>
+              <td>Store transaction tokens and digital receipts</td>
+              <td>Payment processing and store billing</td>
+            </tr>
+            <tr>
+              <td><strong>Firebase Analytics</strong></td>
+              <td>Aggregated, anonymized app usage events</td>
+              <td>Understanding app performance and feature adoption</td>
+            </tr>
+            <tr>
+              <td><strong>Firebase Crashlytics</strong></td>
+              <td>Crash logs, stack traces, device model, OS version</td>
+              <td>Detecting and fixing app crashes and stability issues</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>4. How We Use Your Information</h2>
+        <p>We use your data solely for:</p>
+        <ul>
+          <li>Creating, authenticating, and managing your user profile.</li>
+          <li>Enabling companion discovery for festivals, events, and community activities.</li>
+          <li>Facilitating double-opt-in matching and securely sharing mutual handles.</li>
+          <li>Validating subscription entitlements and in-app purchase benefits via RevenueCat.</li>
+          <li>Enforcing our 18+ age requirement and community safety standards.</li>
+          <li>Troubleshooting technical errors, bugs, and performance bottlenecks.</li>
+        </ul>
+
+        <h2>5. Data Security & Storage</h2>
+        <p>
+          We implement rigorous technical and administrative security measures to protect your personal data. All communications between the app and our backend use industry-standard HTTPS/TLS encryption. Profile data and contact handles stored in Supabase are governed by strict Row-Level Security (RLS) rules that prevent unauthorized database querying.
+        </p>
+
+        <h2 id="deletion">6. Data Retention & Account Deletion</h2>
+        <p>
+          You have complete control over your data. You may update your profile or permanently delete your account at any time:
+        </p>
+        <ul>
+          <li><strong>In-App Deletion:</strong> Navigate to <strong>Settings → Account → Delete Account</strong> within the app. All your profile information, photos, active requests, and match history will be immediately and permanently erased from our database.</li>
+          <li><strong>Manual Request:</strong> You can also email us at <a href="mailto:kajalkarkar007@gmail.com">kajalkarkar007@gmail.com</a> with your registered phone number, and our team will process the deletion within 48 hours.</li>
+        </ul>
+
+        <h2>7. Children & Age Eligibility (18+)</h2>
+        <p>
+          Partner Community is strictly designed for individuals aged <strong>18 years and older</strong>. We do not knowingly collect personal data from minors under the age of 18. If we discover that a user is under 18, their account and all associated data will be immediately purged.
+        </p>
+
+        <h2>8. Changes to This Privacy Policy</h2>
+        <p>
+          We may update this Privacy Policy periodically to reflect changes in our app features or regulatory requirements. Any modifications will be posted on this page with an updated "Last updated" date.
+        </p>
+
+        <h2>9. Contact Us</h2>
+        <p>
+          If you have any questions, concerns, or requests regarding this Privacy Policy or your personal information, please contact us at:
+        </p>
+        <p>
+          <strong>Email:</strong> <a href="mailto:kajalkarkar007@gmail.com">kajalkarkar007@gmail.com</a><br>
+          <strong>App:</strong> Partner Community (Sangath Partner)<br>
+          <strong>Package ID:</strong> <code>app.partner.community</code>
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div>
+        <p><strong>Partner Community</strong></p>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">
+          &copy; 2026 Partner Community. All rights reserved.
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html" class="footer-link">Home</a>
+        <a href="terms.html" class="footer-link">Terms of Service</a>
+        <a href="mailto:kajalkarkar007@gmail.com" class="footer-link">Support</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
