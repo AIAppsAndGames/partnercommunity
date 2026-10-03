@@ -80,6 +80,13 @@ a:hover {
   font-weight: 700;
   font-size: 1.25rem;
   color: var(--text-main);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.brand:hover {
+  color: var(--text-main);
+  opacity: 0.9;
 }
 
 .brand-icon {
